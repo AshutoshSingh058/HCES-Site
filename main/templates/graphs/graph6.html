@@ -1,0 +1,184 @@
+{% extends '../main/graph-view.html' %} {% load static %} {% block graph %}
+
+<!-- put graph title and intro here -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <h1 class="fs-2 fw-bold">
+      <!-- heading -->
+      Analysis of Economic Disparities Across Social Groups
+    </h1>
+    <p class="lead mt-3">
+      <!-- intro -->
+      Objective: This analysis aims to highlight economic disparities among different social groups in both urban and rural settings, providing insights into spending patterns and socio-economic challenges. Understanding these gaps is essential for designing effective policies to promote inclusive economic growth.
+    </p>
+  </div>
+
+  <!-- Put graph here -->
+  Average MPCE by Social Groups in 2022-23: All-India
+  <div class="flourish-embed flourish-chart" data-src="visualisation/22295531">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript
+      ><img
+        src="https://public.flourish.studio/visualisation/22295531/thumbnail"
+        width="100%"
+        alt="chart visualization"
+    /></noscript>
+  </div>
+
+  
+  <iframe loading="lazy"
+  style="width: 100%; height: 500px; border: 0px none;"
+  allow="clipboard-write"
+  src="https://charts.dataforindia.com/charts/99827b79aaf94f85a77b2eaabd4f3756">
+</iframe>
+
+  Average MPCE (Rs.) by social group in 2022-23, major states
+  <div
+    class="flourish-embed flourish-hierarchy"
+    data-src="visualisation/22290295">
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
+    <noscript
+      ><img
+        src="https://public.flourish.studio/visualisation/22290295/thumbnail"
+        width="100%"
+        alt="hierarchy visualization"
+    /></noscript>
+  </div>
+  Click on the respective state to view the data for that state.
+  
+  <!-- end of graph area -->
+
+  <!-- Put insights here -->
+  <div class="row features-section mt-5">
+    <h1 class="fs-2 fw-bold text-center my-3">Key Insights</h1>
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          Urban-Rural Gap
+        </h4>
+        <p>
+          <!-- description -->
+          Urban households have significantly higher per capita expenditure than rural households, reflecting better economic conditions and financial opportunities
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          Challenges Across Social Groups
+        </h4>
+        <p>
+          <!-- description -->
+          Scheduled Tribes (ST) and Scheduled Castes (SC) have the lowest spending capacity, while Other Backward Classes (OBC) and the ‘Others’ category fare better. In urban areas, the ‘Others’ group records an average Monthly Per Capita Expenditure (MPCE) of ₹7,333.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          Rural Hardships & Urban Advantage
+        </h4>
+        <p>
+          <!-- description -->
+          Scheduled Tribes in rural areas have the lowest MPCE at ₹3,016, highlighting severe economic challenges. Even weaker sections in urban areas, like SC households with ₹5,307 MPCE, have higher spending power than the most stable rural groups, reinforcing urban economic benefits.
+        </p>
+      </div>
+    </div>
+
+    <!-- Put solutions here -->
+    <div class="row features-section mt-5">
+      <h1 class="fs-2 fw-bold text-center my-3">Solutions</h1>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            Education & Digital Access
+          </h4>
+          <p>
+            <!-- description -->
+            Strengthen rural education with better infrastructure, quality teachers, and financial aid. Promote adult literacy and digital education to enhance financial and technological skills, with a focus on empowering women through education.
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            Infrastructure, Connectivity & Agriculture
+          </h4>
+          <p>
+            <!-- description -->
+            Improve housing, sanitation, roads, transport, and internet access while ensuring 100% electrification and clean water. Support farmers with equipment-sharing, technology-driven agriculture, and agri-tourism to boost productivity and incomes.
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            Governance & Community Development
+          </h4>
+          <p>
+            <!-- description -->
+            Strengthen self-help groups and Gram Panchayats for local development, ensure transparency in welfare programs, and promote corporate social responsibility (CSR) initiatives for sustainable rural progress.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- References Section -->
+  <div class="container my-5">
+    <h1 class="fs-2 fw-bold text-center my-4">References</h1>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <!-- Reference 1 -->
+        Survey on Household Consumption Expenditure: 2022-23
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 2 -->
+        Report_591_HCES_2022-23
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 3 -->
+        Final_Report_HCES_2023-24
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 4 -->
+        esankhyiki.mospi.gov.in HCES Statements 10, 20, 3.12, 3.21
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 5 -->
+        dataforindia.com
+      </li>
+      </li>
+    </ul>
+  </div>
+
+  {% endblock %}
+</div>

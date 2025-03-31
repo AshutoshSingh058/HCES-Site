@@ -1,0 +1,164 @@
+{% extends '../main/graph-view.html' %} {% load static %} {% block graph %}
+
+<!-- put graph title and intro here -->
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <h1 class="fs-2 fw-bold">
+      <!-- heading -->
+      Analysis of Economic Disparities Across Economic Fractiles
+    </h1>
+    <p class="lead mt-3">
+      <!-- intro -->
+      Objective: This analysis aims to highlight economic disparities among different social groups and income fractiles in both urban and rural settings. Understanding these disparities helps in formulating targeted policies to promote equitable economic growth and reduce wealth concentration at the top.
+    </p>
+  </div>
+
+  <!-- Put graph here -->
+   <div class="row">
+     <div class="col-6">
+       <span>Average MPCE (Rs.) across fractile classes in 2022-23: All-India</span>
+      <div class="flourish-embed flourish-chart" data-src="visualisation/22344127"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22344127/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+    </div>
+    <div class="col-6">
+      <span>Percentage share of consumption in different fractile classes of MPCE </span>
+      <div class="flourish-embed flourish-chart" data-src="visualisation/22370212"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22370212/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+    </div>
+   </div>
+  
+  
+  <div class="text-center">Deciles of the distribution of persons by MPCE by major states</div>
+      <div class='tableauPlaceholder w-75 ratio ratio-16x9' id='viz1743381887672' style='position: relative;margin:0 auto;'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3_&#47;3_4RU&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='3_4RU&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;3_&#47;3_4RU&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1743381887672');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <!-- end of graph area -->
+
+  <!-- Put insights here -->
+  <div class="row features-section mt-5">
+    <h1 class="fs-2 fw-bold text-center my-3">Key Insights</h1>
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          Extreme Wealth Disparities and Sharp Rise at the Top
+        </h4>
+        <p>
+          <!-- description -->
+          The top 10% of income earners account for 22.7% of rural spending and 25.7% of urban spending, highlighting significant wealth concentration. The top 5% spends nearly eight times more than the bottom 5%, with a sharp rise in expenditure among the highest earners, reinforcing income polarization. Urban top earners spend significantly more than their rural counterparts, widening the economic divide.
+
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          Higher Economic Inequality in Urban Areas
+        </h4>
+        <p>
+          <!-- description -->
+          The top 10% of urban income earners spend over six times more than the lowest 10%, demonstrating a wider consumption gap compared to rural regions. The bottom 10% contributes only 4.2% of total rural expenditure and 4.9% of urban expenditure, underscoring their limited financial capacity. Even the bottom 30% collectively spends far less than the top 10% alone.
+        </p>
+      </div>
+    </div>
+    <!--  -->
+    <div class="col-md-4 mb-4">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <i class="fas fa-seedling"></i>
+        </div>
+        <h4>
+          <!-- title -->
+          3.	Middle-Class Spending Trends
+        </h4>
+        <p>
+          <!-- description -->
+          The majority of households fall within the middle 40-80% spending range, which is ₹3,094 - ₹4,458 in rural areas and ₹4,963 - ₹7,673 in urban areas. Despite representing a broad segment, their expenditure remains significantly below the highest income groups.
+
+        </p>
+      </div>
+    </div>
+
+    <!-- Put solutions here -->
+    <div class="row features-section mt-5">
+      <h1 class="fs-2 fw-bold text-center my-3">Solutions</h1>
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            1.	Advanced Income Assessment for Smarter Policies
+          </h4>
+          <p>
+            <!-- description -->
+            Leveraging alternative data sources, such as mobile payments and local transactions, enhances financial condition assessments across income groups. This enables better targeting of subsidies, financial aid, and taxation policies by uncovering hidden wealth distribution.
+
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            2.	Wealth Redistribution and Financial Inclusion
+          </h4>
+          <p>
+            <!-- description -->
+            Implementing fractional ownership models for rural land, small factories, and urban assets allows lower-income groups to invest small amounts and generate returns. AI-powered credit systems based on transaction history and community trust networks further facilitate financial inclusion by improving credit access for individuals lacking formal financial history
+          </p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="col-md-4 mb-4">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h4>
+            <!-- title -->
+            3.	Digital Transformation for Rural Economic Growth
+          </h4>
+          <p>
+            <!-- description -->
+            Establishing digitally enhanced rural hubs with high-speed internet, professional services, and co-working spaces creates local employment opportunities, reducing migration. These "Digital Twin Villages" mirror urban infrastructure, attracting investment and fostering sustainable rural economic development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- References Section -->
+  <div class="container my-5">
+    <h1 class="fs-2 fw-bold text-center my-4">References</h1>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <!-- Reference 1 -->
+        Survey on Household Consumption Expenditure: 2022-23
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 2 -->
+        Report_591_HCES_2022-23
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 3 -->
+        Final_Report_HCES_2023-24
+      </li>
+      <li class="list-group-item">
+        <!-- Reference 4 -->
+        esankhyiki.mospi.gov.in HCES Statements 14, 3.1, 3.4(R,U)
+      </li>
+    </ul>
+  </div>
+
+  {% endblock %}
+</div>
