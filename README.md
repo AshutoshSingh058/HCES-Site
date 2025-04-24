@@ -1,10 +1,5 @@
-# Please view the demo video of dashboard desing by following :
+##Please view the demo video of dashboard desing by following g-Drive link :
 https://drive.google.com/file/d/1sl04bzyXzocKMXfzDcBmNSXEUBO0MT3e/view?usp=sharing
-
-
-# Django Website Project
-
-A modern Django website featuring a responsive design with Bootstrap, animated counters, video integration, and an AI chatbot.
 
 ## Features
 
